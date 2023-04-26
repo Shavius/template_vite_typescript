@@ -1,0 +1,7 @@
+.header {
+    @include companent();
+
+    &__title {
+        text-align: center;
+    }
+}

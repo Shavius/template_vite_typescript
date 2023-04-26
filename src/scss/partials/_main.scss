@@ -1,0 +1,28 @@
+.main {
+    @include companent();
+
+    &__title {
+        text-align: center;
+    }
+
+    .main__content-img {
+        display: flex;
+        border: 1px solid black;
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .main__content-img-item {
+        display: block;
+        width: 100px;
+        margin-right: 10px;
+    }
+
+    .main__content-img-item-div {
+        background-image: url("../img/japan_2.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100px;
+        height: 66.66px;
+    }
+}

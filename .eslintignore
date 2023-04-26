@@ -1,0 +1,5 @@
+dist
+coverage
+vite.config.js
+postcss.config.js
+package-lock.json

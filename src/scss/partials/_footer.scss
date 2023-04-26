@@ -1,0 +1,7 @@
+.footer {
+    @include companent(0);
+
+    &__title {
+        text-align: center;
+    }
+}
